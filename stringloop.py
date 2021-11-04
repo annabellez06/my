@@ -1,0 +1,10 @@
+print(" ------------------------------------------------")
+print("|                                                |")
+print("|    03GoodbyePerson                             |")
+print("|    Name : Annabelle Zhang                      |")
+print("|    Version : 01                                |")
+print("|                                                |")
+print(" ------------------------------------------------")
+answer = input("What is your string? ")
+for i in answer:
+        print(i)
