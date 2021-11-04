@@ -1,10 +1,10 @@
 print(" ------------------------------------------------")
 print("|                                                |")
-print("|    08StringLoop                                |")
+print("|    09ConvertASCII                              |")
 print("|    Name : Annabelle Zhang                      |")
 print("|    Version : 01                                |")
 print("|                                                |")
 print(" ------------------------------------------------")
 answer = input("What is your string? ")
 for i in answer:
-        print(i)
+        print(i + '=' + str(ord(i)))
